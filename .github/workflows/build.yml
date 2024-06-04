@@ -20,5 +20,3 @@ jobs:
           context: api-python
           push: true
           tags: user/app:latest
-
-          
