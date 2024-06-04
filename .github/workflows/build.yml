@@ -1,0 +1,17 @@
+name: filrouge
+
+on:
+  push:
+    branches:
+    - 'main'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: api-python/
+          push: true
+          tags: user/app:latest
