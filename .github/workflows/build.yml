@@ -19,4 +19,4 @@ jobs:
         with:
           context: api-python
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/app:latest
+          tags: yuwhancn/app:latest
