@@ -31,3 +31,4 @@ jobs:
           context: ./api-python
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/api-python:latest
+          file: ./api-python/Dockerfile.optim
