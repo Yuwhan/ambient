@@ -17,8 +17,8 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: AMBIENT/api-python
+          context: api-python
           push: true
-          tags: yuwhancn/api-python:latest
+          tags: user/app:latest
 
 
